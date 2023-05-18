@@ -5266,7 +5266,7 @@ textarea.form-control-lg {
 }
 .logo {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 72px;
+      font-size: 32px;
       font-weight: bold;
       text-transform: uppercase;
       position: relative;
@@ -8104,7 +8104,7 @@ textarea.form-control-lg {
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 20px;
 }
 
 .fs-4 {
@@ -8127,9 +8127,7 @@ textarea.form-control-lg {
   font-style: normal !important;
 }
 
-.fw-light {
-  font-weight: 200 !important;
-}
+
 
 .fw-lighter {
   font-weight: lighter !important;
@@ -8197,14 +8195,19 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
-  
-  font-size: 50px;
-  width: 506px;
-  height: 58px;
+    font-size: 27px;
+  width: 274px;
+  height: 28px;
+}
+
+.capitalize-first-letter::first-letter {
+  text-transform: uppercase;
 }
 
 .text-capitalize {
   text-transform: capitalize !important;
+  font-size: 30px;
+
 }
 
 .text-wrap {
